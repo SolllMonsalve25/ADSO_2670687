@@ -1,0 +1,16 @@
+*{
+    background-color: #afd3f6;
+}
+h2{
+    color: darkmagenta;
+}
+.c1{
+    color: blueviolet;
+}
+.p1{
+    text-align: justify; 
+}
+#t1{
+    text-align: right;
+    color: rgb(243, 139, 12);
+}

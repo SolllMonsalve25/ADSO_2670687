@@ -3,17 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <tittle>iniciando con GIT</tittle>
+        <link rel="stylesheet" href="css/style.css">
     </head>
            <body>
-            <h1>Concepto de Git</h1>
+            <h1 id="t1">Concepto de Git</h1>
             <h2>Concepto de Git</h2>
             <h3>Concepto de GIT</h1>
             <h4>Concepto de GIT</h1>
             <h2>Concepto de GIT</h2>
 
-                <p>git es un repositorio de versiones distribuido, un clon local del proyecto el cual permite trabajar sin tener acceso a internet o de una forma remota con facibilidad, sirve para gestionar las versiones por las que va pasando el codigo de los proyectos</p>
+                <p class="p1">git es un repositorio de versiones distribuido, un clon local del proyecto el cual permite trabajar sin tener acceso a internet o de una forma remota con facibilidad, sirve para gestionar las versiones por las que va pasando el codigo de los proyectos</p>
 
-                <h2>PRINCIPALES COMANDOS DE GIT</h2>
+                <h2 class="c1">PRINCIPALES COMANDOS DE GIT</h2>
                 <ul>
                     <li><strong>GIT INIT:</strong> Este comando funciona para inicializra un proyecto con git</li>
                     <li><strong>GIT ADD:</strong> Permite agregar cambios al area de reparacion</li>
@@ -133,11 +134,17 @@
                     <input type="hidden" id="timestamp" name="timestamp" value="12386705410">
                     <label for="">Numero de telefono</label>
                     <input type="tel" id="tel" name="tel" placeholder="Digite su numero" required=""><br><br>
-                    <input type="date">
-                    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">PITAL</label>
+                    <input type="date"></input>
+                <br><br>
+                <label for="">Elige el mejor lugar:</label><br>
+                    <input type="checkbox" id="cbox2" value="first_checkbox">Pital</label><br>
                     <label><input type="checkbox" id="cbox1" value="first_checkbox">Garzon</label><br>
                     <label><input type="checkbox" id="cbox1" value="first_checkbox">Agrado</label><br>
-                    <input type="checkbox" id="carrots" name="carrots"placeholder="Agrado" value="carrots" checked>
+                    <input type="checkbox" id="cbox2" value="first_checkbox">La Plata</label><br>
+                </br>
+                   
+                    <input type="range" min="10" max="100"><br><br>
+                   
                     <fieldset>
                         <legend>Elige un color</legend>
                         <label>
@@ -146,7 +153,20 @@
                         <label>
                             <input type="radio" name="color" value="Negro"> Negro
                         </label>
+                        <label>
+                            <input type="radio" name="color" value="Rojo">Rojo
                         </label>
+                        <label>
+                            <input type="radio" name="color" value="Amarillo">Amarillo
+                        </label>
+                        <label>
+                            <input type="radio" name="color" value="Verde">Verde
+                        </label>
+                        <label>
+                            <input type="radio" name="color" value="Rosa">Rosa
+
+                        </label>
+                        
                     </fieldset>
                     <fieldset>
                         <legend>Elige un número</legend>
@@ -158,14 +178,69 @@
                         </label>
                         <label>
                             <input type="radio" name="numero" value="3"> 3
-                        
                         </label>
-                    </fieldset>
+                        <label>
+                            <input type="radio" name="numero" value="4"> 4
+                        </label>
+                        <label>
+                            <input type="radio" name="numero" value="5"> 5
+                        </label>
+
+                        <br><br>
+
+                   
+                    </fieldset><br>
+
+                    <select name="OS">
+                        <option value="1">windows vista</option>
+                        <option value="2">windows 7</option>
+                        <option value="3">windows XP</option>
+                        <option value="10">fedora</option>
+                        <option value="11">debian</option>
+                        <option value="12">suse</option>
+                        
+                    </select>
+                    <select name="OS">
+                        <option selected value="0"> Elige una opción </option>
+                            <optgroup label="Microsoft"> 
+                            <option value="1">Windows Vista</option> 
+                            <option value="2">Windows 7</option> 
+                            <option value="3">Windows XP</option> 
+                        </optgroup> 
+                        <optgroup label="Linux"> 
+                            <option value="10">Fedora</option> 
+                            <option value="11">Debian</option> 
+                            <option value="12">Suse</option> 
+                        </optgroup> 
+                     </select>
+
+                     <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
+
+                        <p>
+                      
+                          Sube una imagen:
+                      
+                          <input type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif">
+                      
+                          <input type="submit" value="Enviar datos">
+                      
+                        </p>
+                      
+                      </form>
+
+                 </form>
+
+                 <h2>ETIQUETAS DE MULTIMEDIA</h2>
+                 <video src="../HTML/Videos/promo.mp4" width="640" height="480" controls></video>
+
+
+                 <h3>AUDIO</h3>
+                 <audio src="../HTML/Audio/Feid_ Mora_ Eladio Carrion - FUMETEO (Remix) (Official Video)(M4A_128K)_061234.m4a" controls></audio>
+                 <audio src="../HTML/Audio/himno.mp3" controls></audio>
 
 
 
 
-                </form>
 
 
 
