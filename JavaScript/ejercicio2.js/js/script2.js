@@ -123,5 +123,4 @@ let MFGi = parseInt(MonPre * Ginec);
 let MFTr = parseInt(MonPre * trau);
 let MFPe = parseInt(MonPre * pedi);
 
-alert(" El dinero recibido por el area
-
+alert(" El dinero recibido por el area de gineconologia es: " + MFGi + ", el dinero recibido por el area de traumologia es: " + MFTr + " y el dinero recibido por el area de pediatria es: " + MFPe )
